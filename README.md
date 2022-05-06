@@ -1,4 +1,4 @@
-# Tp-IntegradorFront
+# Trabajo practico obligatorio-IntegradorFront
 TPO Front Integrador HTML, CSS y Javascript - Codo a Codo 4.0 
 
 El TPO deberá cumplir con los siguientes requisitos:
