@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/ico" sizes="16x16" href="img/favicon.ico">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/5ce2677feb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav id="" class="navbar">
+
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="index.html"><img class="cake-icon-brand" src="img/logo.png"
+                            alt="logo delicias de cocholate" /></a></li>
+                <li class="nav-menu-item"><a href="index.html">Inicio</a></li>
+                <li class="nav-menu-item"><a href="productos.html">Productos</a></li>
+                <li class="nav-menu-item"><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <i class="fa fa-bars menu-icon"></i>
+                <i class="far fa-times-circle close-icon"></i>
+            </button>
+        </nav>
+
+    </header>
+
+
+    <section class="contact-section">
+        <div class="container-contact">
+
+            <div class="row">
+
+                <div class="form-container">
+
+                    <form class="form-area form" id="form" name="contactForm" action="" method="POST">
+
+                        <h3 class="form-title">Formulario de contacto</h3>
+                        <div class="">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="input-form" name="name" id="nombre" minlength="4" maxlength="30">
+
+                            <span id="error" class="error hide">El nombre es requerido</span>
+                        </div>
+                        <div class="">
+                            <label for="email">Email</label>
+                            <input type="email" class="input-form" name="email" id="email">
+
+                            <span class="error hide">El email es requerido</span>
+                        </div>
+                        <div class="">
+                            <label for="topic">Asunto</label>
+                            <input type="text" class="input-form" name="topic" id="subject">
+
+                            <span class="error hide">El asunto es requerido</span>
+                        </div>
+                        <div class="" id="mensaje">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" class="input-form"></textarea>
+
+                            <span class="error hide">El mensaje es requerido</span>
+                        </div>
+                        <button href="#" type="submit" onclick="" class="btn-form">Enviar </button>
+
+                    </form>
+
+
+                </div>
+                <div class="map">
+                    <h3 class="form-title">Donde estamos:</h3>
+                    <p>Horario: </p>
+                    <p>Pedidos:1132112310 Email: info@deliciasdechocolate.com</p>
+
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.8107988642505!2d-58.4369272027309!3d-34.619194233692745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Argentina!5e0!3m2!1sen!2sus!4v1634707500864!5m2!1sen!2sus"
+                            width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <!--Google Maps-->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="bg-footer">
+        <address>
+            <h2 class="text-footer">Síguenos en nuestras redes</h2>
+            <ul class="social-icon-list">
+                <li>
+                    <a class="social-icon" href="#">
+                        <span class="fab fa-twitter-square" aria-hidden="true"></span>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <span class="fab fa-facebook-square" aria-hidden="true"></span>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <span class="fab fa-instagram-square" aria-hidden="true"></span>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </address>
+    </footer>
+
+
+    <script defer src="js/script.js"></script>
+
+</body>
+
+</html>
